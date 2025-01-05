@@ -64,15 +64,15 @@ nav a {
 
 .social-icons {
     position: fixed;
-    top: 90px;
+    top: 90px; /* Adjust as needed to be just below the navigation bar */
     left: 0;
     transform: translateY(0);
-    z-index: 100;
+    z-index: 100; /* Ensure above other content */
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background-color: rgba(144, 238, 144, 0.9);
+    background-color: rgba(144, 238, 144, 0.9); /* Light green background with 90% opacity */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,7 +88,7 @@ nav a {
 }
 
 .social-icons a:hover img {
-    transform: scale(1.1);
+    transform: scale(1.1); /* Scale on hover */
 }
 
 .shop-hero {
@@ -214,13 +214,13 @@ footer .footer-info p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    .shop-content {
+    .contact-content {
         flex-direction: column;
         align-items: center;
     }
 
-    .shop-content .left-side,
-    .shop-content .right-side {
+    .contact-content .left-side,
+    .contact-content .right-side {
         width: 100%;
     }
 }
