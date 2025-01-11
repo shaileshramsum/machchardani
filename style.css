@@ -50,11 +50,12 @@ header {
     color: lightgreen;
     text-decoration: none;
 }
-.mosquito {
-  width: 50px;
-  animation: fly 3s infinite alternate;
+.mosquito-graphic {
+  width: 80px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
 }
-
 /* Mosquito Animation */
 @keyframes fly {
   transform: translateY(0);
@@ -237,6 +238,41 @@ main {
 .focus-results .proposal-link:hover {
     background-color: #f2f2f2;
     color: #333;
+}
+.order-button, .call-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4A90E2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.order-button:hover, .call-button:hover {
+  background-color: #3b78c0;
+}
+
+/* Photo Gallery Section */
+.photo-gallery {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Services */
