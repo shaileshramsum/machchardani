@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #007bff;  /* Blue color */
     color: #fff;
     padding: 1rem 0;
 }
@@ -94,7 +94,7 @@ nav a {
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bff;  /* Blue color */
     color: #fff;
     padding: 20px 0;
     text-align: center;
